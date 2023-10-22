@@ -52,11 +52,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="7dp"
-                android:hint="Email" />
+                android:hint="Email"
+                android:id="@+id/email"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -71,16 +72,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="7dp"
-                android:hint="Password" />
+                android:hint="Password"
+                android:id="@+id/password"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/forgot_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -102,13 +104,14 @@
             android:onClick="login"
 
 
+
             android:text="Login" />
 
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/bottomTextView"
+        android:id="@+id/signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"

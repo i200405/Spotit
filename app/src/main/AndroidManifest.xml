@@ -13,6 +13,9 @@
         android:theme="@style/Theme.I200557"
         tools:targetApi="31">
         <activity
+            android:name=".MainChat"
+            android:exported="false" />
+        <activity
             android:name=".picture"
             android:exported="false" />
         <activity
@@ -67,7 +70,7 @@
             android:name=".emailVerification"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".Frags"
             android:exported="false" />
         <activity
             android:name=".Login"
@@ -78,6 +81,8 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

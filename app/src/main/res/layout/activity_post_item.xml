@@ -15,21 +15,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="7"
+                >
 
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/peeche"
-                    android:text="Item"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-                    android:textColor="@color/material_dynamic_neutral20"
-                    android:textSize="35dp"
-                    android:textStyle="bold" />
 
                 <ImageButton
 
@@ -39,9 +31,25 @@
                     android:layout_weight="1"
                     android:background="@drawable/cross"
                     android:contentDescription="back"
-                    android:onClick="profile" />
+                    android:onClick="profile"
 
-            </RelativeLayout>
+                    />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Item"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    android:textColor="@color/material_dynamic_neutral20"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_weight="6"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
@@ -51,7 +59,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="5">
 
                 <ImageButton
                     android:layout_width="160dp"
@@ -59,7 +68,8 @@
                     android:layout_margin="20dp"
                     android:background="@drawable/capture"
                     android:contentDescription="upload image"
-                    android:onClick="image" />
+                    android:onClick="image"
+                    android:layout_weight="2"/>
 
                 <ImageButton
                     android:layout_width="160dp"
@@ -67,7 +77,8 @@
                     android:layout_margin="20dp"
                     android:background="@drawable/upload"
                     android:contentDescription="upload video"
-                    android:onClick="video" />
+                    android:onClick="video"
+                    android:layout_weight="2"/>
 
 
             </LinearLayout>

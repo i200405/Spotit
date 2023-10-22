@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423566428123",
+    "project_id": "spotit-c151e",
+    "storage_bucket": "spotit-c151e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423566428123:android:6cf3df593f6474216e49fe",
+        "android_client_info": {
+          "package_name": "com.ahmedsohail.i200557"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY0-ta1AvSD9FkODl7WbAFdk1l9Fp8J38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
