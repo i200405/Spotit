@@ -57,4 +57,6 @@ dependencies {
     implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10")
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation ("com.squareup.picasso:picasso:2.8")
+    implementation ("com.android.volley:volley:1.2.1")
+
 }
